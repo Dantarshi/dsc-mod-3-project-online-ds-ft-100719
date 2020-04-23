@@ -138,7 +138,7 @@ I reject the null hypothesis
 
 Is there statistically significant difference in the mean sales revenue in North America vs the rest of the countries?
 
-$𝐻_o$:The mean sales for the North America is thesame as the rest of the countries combined
+$𝐻_0$:The mean sales for the North America is thesame as the rest of the countries combined
 
 $𝐻_1$: The mean sales from North America is more than the mean sales for rest of the countries.
 
