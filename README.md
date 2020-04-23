@@ -68,11 +68,11 @@ $𝐻_1$: The quantity of product ordered by discount customer is greater than t
 
 I split the data into 2 groups, controled(Full Price) with respect to quantity and experimental group(Discounted) with respect to quantity and it visually look as:
 
-[png](output_15_1.png)
+![png](output_15_1.png)
 
 The percentage discounts are shown below:
 
-[png](output_16_1.png)
+![png](output_16_1.png)
 
 I performed Mann-Whitney U test since the groups are non parametric, 
 
@@ -107,11 +107,11 @@ $𝐻_1$: Discount has effect on the sales revenue
 
 I split the data into 2 groups using SQLite3, controled(Full Price) with respect to sales revenue and experimental group(Discounted) with respect to sales revenue and it visually look as:
 
-[png](output_49_1.png)
+![png](output_49_1.png)
 
 The percentage discounts are shown below:
 
-[png](output_50_1.png)
+![png](output_50_1.png)
 
 I performed Mann-Whitney U test since the groups are non parametric,
 
@@ -146,7 +146,7 @@ $𝐻_1$: The mean sales from North America is more than the mean sales for rest
 
 I queried data for North America and the rest of the world using SQLite3 and the mean sales for these regions looks like:
 
-[png](output_86_0.png)
+![png](output_86_0.png)
 
 I performed a two-sample T-Test and the results shows:
 
@@ -177,7 +177,7 @@ $𝐻_1$: The mean quantity of product ordered by customers in North America is 
 
 I queried data for North America and the rest of the world using SQLite3 and the average quantity for these regions and it looks like:
 
-[png](output_109_0.png)
+![png](output_109_0.png)
 
 I performed a welch's test because the group sizes are different and also did a two-sample test and the results:
 
